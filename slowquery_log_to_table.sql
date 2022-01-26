@@ -11,8 +11,7 @@
 	CREATE	TABLE	#tbl_SlowQueryParse (CheckTime_UTC datetime2(6) , UserHost nvarchar(max) , QueryInformation nvarchar(max))
 
 	BULK	INSERT	#tbl_SlowQuery
-	FROM	N'D:\mysql-slow-twcha-mysql01-kc-2022012405.log' --Slow Query log 파일 경로 지정
-
+	FROM	N'D:\mysql-slow-testdb-2022012405.log' --Assign the slow query log file's path
 
 
 --#01.Set variable value from table
