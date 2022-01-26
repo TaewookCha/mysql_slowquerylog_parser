@@ -4,9 +4,7 @@
 
 You can parse MySQL slowquery log to table format via SQL Server.
 
-It can also be working in "SQL server expression".
- 
- 
+It can also be working with SQL server express edition.
  
 You will be get following table formats of data.
 
